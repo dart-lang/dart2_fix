@@ -3,6 +3,7 @@
 // BSD-style license that can be found in the LICENSE file.
 
 import 'dart:io';
+import 'dart:async';
 
 import 'package:dart2_fix/src/dart_fix.dart';
 import 'package:dart2_fix/src/model.dart';
