@@ -213,7 +213,8 @@ final Map<String, String> _textReplacements = {
   'HttpStatus.OK': 'HttpStatus.ok',
   'HttpStatus.CREATED': 'HttpStatus.created',
   'HttpStatus.ACCEPTED': 'HttpStatus.accepted',
-  'HttpStatus.NON_AUTHORITATIVE_INFORMATION': 'HttpStatus.nonAuthoritativeInformation',
+  'HttpStatus.NON_AUTHORITATIVE_INFORMATION':
+      'HttpStatus.nonAuthoritativeInformation',
   'HttpStatus.NO_CONTENT': 'HttpStatus.noContent',
   'HttpStatus.RESET_CONTENT': 'HttpStatus.resetContent',
   'HttpStatus.PARTIAL_CONTENT': 'HttpStatus.partialContent',
@@ -232,7 +233,8 @@ final Map<String, String> _textReplacements = {
   'HttpStatus.NOT_FOUND': 'HttpStatus.notFound',
   'HttpStatus.METHOD_NOT_ALLOWED': 'HttpStatus.methodNotAllowed',
   'HttpStatus.NOT_ACCEPTABLE': 'HttpStatus.notAcceptable',
-  'HttpStatus.PROXY_AUTHENTICATION_REQUIRED': 'HttpStatus.proxyAuthenticationRequired',
+  'HttpStatus.PROXY_AUTHENTICATION_REQUIRED':
+      'HttpStatus.proxyAuthenticationRequired',
   'HttpStatus.REQUEST_TIMEOUT': 'HttpStatus.requestTimeout',
   'HttpStatus.CONFLICT': 'HttpStatus.conflict',
   'HttpStatus.GONE': 'HttpStatus.gone',
@@ -241,7 +243,8 @@ final Map<String, String> _textReplacements = {
   'HttpStatus.REQUEST_ENTITY_TOO_LARGE': 'HttpStatus.requestEntityTooLarge',
   'HttpStatus.REQUEST_URI_TOO_LONG': 'HttpStatus.requestUriTooLong',
   'HttpStatus.UNSUPPORTED_MEDIA_TYPE': 'HttpStatus.unsupportedMediaType',
-  'HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE': 'HttpStatus.requestedRangeNotSatisfiable',
+  'HttpStatus.REQUESTED_RANGE_NOT_SATISFIABLE':
+      'HttpStatus.requestedRangeNotSatisfiable',
   'HttpStatus.EXPECTATION_FAILED': 'HttpStatus.expectationFailed',
   'HttpStatus.UPGRADE_REQUIRED': 'HttpStatus.upgradeRequired',
   'HttpStatus.INTERNAL_SERVER_ERROR': 'HttpStatus.internalServerError',
@@ -250,7 +253,8 @@ final Map<String, String> _textReplacements = {
   'HttpStatus.SERVICE_UNAVAILABLE': 'HttpStatus.serviceUnavailable',
   'HttpStatus.GATEWAY_TIMEOUT': 'HttpStatus.gatewayTimeout',
   'HttpStatus.HTTP_VERSION_NOT_SUPPORTED': 'HttpStatus.httpVersionNotSupported',
-  'HttpStatus.NETWORK_CONNECT_TIMEOUT_ERROR': 'HttpStatus.networkConnectTimeoutError',
+  'HttpStatus.NETWORK_CONNECT_TIMEOUT_ERROR':
+      'HttpStatus.networkConnectTimeoutError',
 
   'HttpHeaders.ACCEPT': 'HttpHeaders.acceptHeader',
   'HttpHeaders.ACCEPT_CHARSET': 'HttpHeaders.acceptCharsetHeader',
@@ -324,11 +328,14 @@ final Map<String, String> _textReplacements = {
   'WebSocketStatus.RESERVED_1004': 'WebSocketStatus.reserved1004',
   'WebSocketStatus.NO_STATUS_RECEIVED': 'WebSocketStatus.noStatusReceived',
   'WebSocketStatus.ABNORMAL_CLOSURE': 'WebSocketStatus.abnormalClosure',
-  'WebSocketStatus.INVALID_FRAME_PAYLOAD_DATA': 'WebSocketStatus.invalidFramePayloadData',
+  'WebSocketStatus.INVALID_FRAME_PAYLOAD_DATA':
+      'WebSocketStatus.invalidFramePayloadData',
   'WebSocketStatus.POLICY_VIOLATION': 'WebSocketStatus.policyViolation',
   'WebSocketStatus.MESSAGE_TOO_BIG': 'WebSocketStatus.messageTooBig',
-  'WebSocketStatus.MISSING_MANDATORY_EXTENSION': 'WebSocketStatus.missingMandatoryExtension',
-  'WebSocketStatus.INTERNAL_SERVER_ERROR': 'WebSocketStatus.internalServerError',
+  'WebSocketStatus.MISSING_MANDATORY_EXTENSION':
+      'WebSocketStatus.missingMandatoryExtension',
+  'WebSocketStatus.INTERNAL_SERVER_ERROR':
+      'WebSocketStatus.internalServerError',
   'WebSocketStatus.RESERVED_1015': 'WebSocketStatus.reserved1015',
 
   'CompressionOptions.DEFAULT': 'CompressionOptions.compressionDefault',
