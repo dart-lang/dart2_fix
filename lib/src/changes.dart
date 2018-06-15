@@ -11,26 +11,6 @@ final Map<String, String> _textReplacements = {
   // dart:async
   'Zone.ROOT': 'Zone.root',
 
-  // dart:convert
-  '{JSON}.encode': 'jsonEncode',
-  '{JSON}.decode': 'jsonDecode',
-  '{BASE64}.encode': 'base64Encode',
-  '{BASE64}.decode': 'base64Decode',
-
-  'ASCII': 'ascii',
-  'BASE64': 'base64',
-  'BASE64URL': 'base64Url',
-  'HTML_ESCAPE': 'htmlEscape',
-  'UNKOWN': 'unknown',
-  'ATTRIBUTE': 'attribute',
-  'SQ_ATTRIBUTE': 'sqAttribute',
-  'ELEMENT': 'element',
-  'JSON': 'json',
-  'LATIN1': 'latin1',
-  'UNICODE_REPLACEMENT_CHARACTER_RUNE': 'unicodeReplacementCharacterRune',
-  'UNICODE_BOM_CHARACTER_RUNE': 'unicodeBomCharacterRune',
-  'UTF8': 'utf8',
-
   // dart:core
   'DateTime.MONDAY': 'DateTime.monday',
   'DateTime.TUESDAY': 'DateTime.tuesday',
@@ -84,16 +64,6 @@ final Map<String, String> _textReplacements = {
   // dart:isolate
   'Isolate.IMMEDIATE': 'Isolate.immediate',
   'Isolate.BEFORE_NEXT_EVENT': 'Isolate.beforeNextEvent',
-
-  // dart:math
-  'E': 'e',
-  'LN10': 'ln10',
-  'LN2': 'ln2',
-  'LOG2E': 'log2e',
-  'LOG10E': 'log10e',
-  'PI': 'pi',
-  'SQRT1_2': 'sqrt1_2',
-  'SQRT2': 'sqrt2',
 
   // dart:typed_data
   'Endianness.BIG_ENDIAN': 'Endian.big',
@@ -345,6 +315,38 @@ final Map<String, String> _textReplacements = {
   'WebSocket.OPEN': 'WebSocket.open',
   'WebSocket.CLOSING': 'WebSocket.closing',
   'WebSocket.CLOSED': 'WebSocket.closed',
+
+  // Unqualified/top-level declarations checked after qualified ones.
+
+  // dart:math
+  'E': 'e',
+  'LN10': 'ln10',
+  'LN2': 'ln2',
+  'LOG2E': 'log2e',
+  'LOG10E': 'log10e',
+  'PI': 'pi',
+  'SQRT1_2': 'sqrt1_2',
+  'SQRT2': 'sqrt2',
+
+  // dart:convert
+  '{JSON}.encode': 'jsonEncode',
+  '{JSON}.decode': 'jsonDecode',
+  '{BASE64}.encode': 'base64Encode',
+  '{BASE64}.decode': 'base64Decode',
+
+  'ASCII': 'ascii',
+  'BASE64': 'base64',
+  'BASE64URL': 'base64Url',
+  'HTML_ESCAPE': 'htmlEscape',
+  'UNKOWN': 'unknown',
+  'ATTRIBUTE': 'attribute',
+  'SQ_ATTRIBUTE': 'sqAttribute',
+  'ELEMENT': 'element',
+  'JSON': 'json',
+  'LATIN1': 'latin1',
+  'UNICODE_REPLACEMENT_CHARACTER_RUNE': 'unicodeReplacementCharacterRune',
+  'UNICODE_BOM_CHARACTER_RUNE': 'unicodeBomCharacterRune',
+  'UTF8': 'utf8',
 
   // @proxy annotation
   '@{proxy}': '',
